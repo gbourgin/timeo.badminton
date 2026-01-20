@@ -4,3 +4,8 @@ _site
 .jekyll-metadata
 vendor
 .vs
+
+# Test artifacts
+.rspec_status
+Gemfile.lock
+bin/
