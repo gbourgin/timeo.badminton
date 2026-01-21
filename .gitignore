@@ -9,3 +9,6 @@ vendor
 .rspec_status
 Gemfile.lock
 bin/
+
+# Bundler
+.bundle/

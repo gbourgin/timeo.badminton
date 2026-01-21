@@ -6,7 +6,6 @@ A Jekyll-based website supporting Timéo Bourgin's Olympic badminton dream.
 
 ```bash
 bundle install
-bundle binstubs rake jekyll rspec-core --force
 ```
 
 ## Development
@@ -16,7 +15,7 @@ bundle binstubs rake jekyll rspec-core --force
 bundle exec jekyll serve
 
 # Build the site
-./bin/jekyll build
+bundle exec jekyll build
 ```
 
 ## Testing
@@ -25,7 +24,7 @@ This project includes comprehensive automated testing:
 
 ### Run All Tests
 ```bash
-./bin/rake test
+bundle exec rake test
 ```
 
 This will:
@@ -37,13 +36,13 @@ This will:
 
 ```bash
 # Build only
-./bin/rake build
+bundle exec rake build
 
 # RSpec only
-./bin/rspec
+bundle exec rspec
 
 # HTML validation only
-./bin/rake html_proofer
+bundle exec rake html_proofer
 ```
 
 ### Test Coverage
